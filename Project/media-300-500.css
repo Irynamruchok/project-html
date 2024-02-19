@@ -1,0 +1,223 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+/*----------------------------------------Header--------------------------------------------*/
+header>div{
+    width: 87.2vw;
+}
+.mainIcon{
+      width: 30vw;
+      justify-content: flex-start;
+    font-size: 7.46vw;
+    }
+.menu{
+    display: none;
+}
+.contact{
+    display: none;
+}
+/*----------------------------------------MainSection------------------------------------------------*/
+.mainSection{
+    height: 150vh;
+}
+.descriptionContainer{
+    flex-direction: column;
+}
+.description{
+    width: 87.2vw;
+    height: 78.92vh;
+}
+.description h1{
+    font-size: 11.2vw;
+    line-height: 16.8vw;
+}
+.description p{
+    font-size: 4.26vw;
+    line-height: 6.4vw;
+}
+#services{
+    width: 44.26vw;
+    height: 6.59vh;
+    font-size: 4.29vw;
+}
+.mainImgContainer{
+    width: 100vw;
+    height: 60.86vh;
+    justify-content: center;
+}
+.mainImgContainer img{
+    max-width: 100%;
+}
+/* -----------------------------------BigImageSection-----------------------------------------------   */
+.bigImageSection{
+    height: 85vh;
+}
+.textBox{
+    width: 87.2vw;
+    height: 27.8vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.questionTitle{
+    width: 100%;
+    height: 16.5vh;
+}
+.questionTitle p{
+    font-size: 9.6vw;
+    line-height: 14.4vw;
+}
+.videoText{
+    width: 100%;
+    height: 7.19vh;
+    font-size: 4.26vw;
+    line-height: 6.4vw;
+}
+.bigImageContainer{
+    width: 87.2vw;
+    height: 27.5vh;
+}
+/*-------------------------------------ServiceDescriptionService-----------------------------------------*/
+.serviceDescriptionSection{
+    height: 306vh;
+    justify-content: space-around;
+}
+.title{
+    width: 87.2vw;
+    height: 16.5vh;
+}
+.title p{
+    font-size: 9.6vw;
+    line-height: 14.4vw;
+}
+.blockContainer{
+    height: 283vh;
+    justify-content: center;
+}
+.line{
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.line>div{
+    width: 80vw;
+    height: 30.2vh;
+    justify-content: space-between;
+}
+.line>div>.name{
+    font-size: 6.4vw;
+    letter-spacing: -0.2vw;
+}
+.line>div>p{
+    font-size: 4.26vw;
+    line-height: 7.46vw;
+}
+.boxIcon{
+    width: 18.4vw;
+    height: 10.34vh;
+}
+/*--------------------------------------PortfolioSection----------------------------------------*/
+.portfolioSection{
+    height: 100vh;
+    align-items: flex-start;
+}
+.portfolioSection>div{
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolioTitle{
+    width: 87.2vw;
+    height: 20vh;
+}
+.portfolioTitle p{
+    font-size: 9.6vw;
+    line-height: 14.4vw;
+    margin-bottom: 0;
+}
+.portfolioImageContainer {
+    position: relative;
+    width: 100vw;
+    height: 44vh;
+}
+.portfolioImage {
+    position: absolute;
+    width: 100%;
+    height: 44vh;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+.portfolioImage1 {
+    opacity: 1;
+    animation: slide 15s infinite ;
+}
+.portfolioImage2 {
+    animation: slide 15s infinite;
+    animation-delay: 5s;
+}
+.portfolioImage3 {
+    animation: slide 15s infinite ;
+    animation-delay: 10s;
+}
+@keyframes slide {
+     0% { opacity: 0; }
+     20% { opacity: 1; }
+     33.33% { opacity: 1; }
+     53.33% { opacity: 0; }
+}
+/*---------------------------------------ContactSection---------------------------------------------------------*/
+.contactSection{
+    height: 62.3vh;
+}
+.contactSection>div{
+    width: 87.2vw;
+    height: 38.38vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.contactText{
+    width: 100%;
+}
+.contactText p{
+    font-size: 9.6vw;
+    line-height: 14.4vw;
+    margin-top: 0;
+}
+#contactButton{
+    width: 44.26vw;
+    height: 6.59vh;
+    font-size: 4.26vw;
+}
+/*----------------------------------------Footer----------------------------------------------*/
+footer{
+    height: 74.36vh;
+    align-items: flex-end;
+}
+footer>div{
+    width: 67.7vw;
+    height: 55vh;
+    flex-direction: column;
+    align-items: center;
+}
+.fMenu{
+    width: 46.9vw;
+    height: 24.58vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.fMenu a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 4.8vw;
+    text-transform: capitalize;
+}
+.rights{
+    font-size: 4.8vw;
+    line-height: 7.46vw;
+}
+.mainIconFooter{
+    width: 100%;
+    justify-content: center;
+    font-size: 7.4vw;
+}
+}

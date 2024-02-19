@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+body button{
+    cursor: pointer;
+}
+body button:active{
+    opacity: 0.8;
+    transform: scale(0.95);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+/*---------------------------------------Header-------------------------------------------------------*/
+header{
+    display: flex;
+    justify-content: center;
+    background: #19191B;
+    border: 1px solid #000;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+header>div{
+    width: 83.3vw;
+    height: 13.28vh ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainIcon{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.94vw;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.icon img{
+    width: 2.7vw;
+    height: 2.7vw;
+}
+.menu{
+    width: 27.7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    color:  rgba(255, 255, 255, 0.70);
+    text-decoration: none;
+    font-size: 1.25vw;
+    font-weight: 600;
+}
+.menu>a:first-child{
+    color: #5454D4;
+}
+.contact{
+    display: flex;
+}
+#contact{
+    width: 10.9vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    backdrop-filter: blur(1px);
+    background: #19191B;
+    color: white;
+    font-weight: 400;
+}
+/*---------------------------------------MainSection----------------------------------------------*/
+.mainSection{
+    width: 100vw;
+    height: 75vh;
+    background: #19191B;
+}
+.descriptionContainer{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    width: 41.85vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.description h1{
+    color: white;
+    font-size: 5.5vw;
+    font-weight: 400;
+    line-height: 5.5vw;
+    margin: 0;
+}
+.description p{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 1.45vw;
+    line-height: 2.7vw;
+    letter-spacing: -0.045vw;
+    margin: 0;
+}
+#services{
+    width: 15vw;
+    height: 7vh;
+    border-radius: 4px;
+    border: none;
+    background: #5454D4;
+    color: #FFF;
+    font-size: 1.38vw;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}
+.mainImgContainer{
+    width: 41.85vw;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.mainImgContainer img{
+    width: 100%;
+    height: 100%;
+}
+/*-----------------------------------BigImageSection------------------------------------------------*/
+.bigImageSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #19191B;
+}
+.textBox{
+    width: 83.3vw;
+    display: flex;
+    justify-content: space-between;
+}
+.questionTitle{
+    width: 32.8vw;
+    height: 13.6vh;
+}
+.questionTitle p{
+    color: #FFF;
+    font-size: 4.16vw;
+    font-weight: 400;
+    line-height: 4.86vw;
+    margin: 0;
+}
+.videoText{
+    width: 41.7vw;
+    height: 13.6vh;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 1.45vw;
+    font-weight: 400;
+    line-height: 2.7vw;
+    letter-spacing: -0.657px;
+}
+.bigImageContainer{
+    width: 83.3vw;
+    height: 65vh;
+    display: flex;
+}
+.bigImageContainer img{
+    width: 100%;
+    height: 100%;
+}
+/*-----------------------------------ServiceDescriptionSection--------------------------------------------------*/
+.serviceDescriptionSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #19191B;
+}
+.title{
+    width: 48.2vw;
+    height: 13.6vh;
+}
+.title p{
+    color: #FFF;
+    text-align: center;
+    font-size: 4.2vw;
+    font-weight: 400;
+    line-height: 4.86vw;
+    margin: 0;
+}
+.blockContainer{
+    width: 83.3vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line>div{
+    width: 20.7vw;
+    height: 20.2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.line>div>.name{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.94vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.05vw;
+    margin-bottom: 0;
+}
+.line>div>p{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 1.94vw;
+    letter-spacing: -0.5px;
+}
+.boxIcon {
+    width: 4.79vw;
+    height: 6.73vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxIcon img{
+    width: 100%;
+    height: 100%;
+}
+/*-------------------------------------PortfolioSection------------------------------------------*/
+.portfolioSection{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #19191B;
+}
+.portfolioSection>div{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.portfolioTitle{
+    color: #FFF;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.portfolioImageContainer{
+    width: 83.3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolioImage1,.portfolioImage2,.portfolioImage3{
+    width: 23vw;
+    height: 30vh;
+    border-radius: 14px;
+    background: #1E1E20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolioImage1 img{
+    width: 90%;
+    height: 90%;
+}
+.portfolioImage2 img{
+    width: 90%;
+    height: 90%;
+}
+.portfolioImage3 img{
+    width: 90%;
+    height: 90%;
+}
+/*------------------------------------ContactSection---------------------------------------------*/
+.contactSection{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(30, 30, 32);
+}
+.contactSection>div{
+    width: 83.3vw;
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactText{
+    width: 57.36vw ;
+}
+.contactText>p{
+    color: #FFF;
+    font-size: 4.1vw;
+    font-weight: 400;
+    line-height: normal;
+}
+#contactButton{
+    width: 15vw;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.45vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+}
+/*-------------------------------------Footer----------------------------------------------------*/
+footer{
+    height: 18.5vh;
+    background: #19191B;
+    display: flex;
+   justify-content: center;
+}
+footer>div{
+    width: 83.3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fMenu{
+    display: none;
+}
+.mainIconFooter{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.94vw;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.rights{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 2.63vw;
+    letter-spacing: -0.5px;
+}

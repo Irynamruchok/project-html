@@ -70,7 +70,6 @@ header>div{
 }
 /*---------------------------------------MainSection----------------------------------------------*/
 .mainSection{
-    width: 100vw;
     height: 75vh;
     background: #19191B;
 }
@@ -125,7 +124,6 @@ header>div{
 }
 /*-----------------------------------BigImageSection------------------------------------------------*/
 .bigImageSection{
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -169,7 +167,6 @@ header>div{
 }
 /*-----------------------------------ServiceDescriptionSection--------------------------------------------------*/
 .serviceDescriptionSection{
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -242,7 +239,6 @@ header>div{
 }
 /*-------------------------------------PortfolioSection------------------------------------------*/
 .portfolioSection{
-    width: 100vw;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -292,7 +288,6 @@ header>div{
 }
 /*------------------------------------ContactSection---------------------------------------------*/
 .contactSection{
-    width: 100vw;
     height: 50vh;
     display: flex;
     justify-content: center;

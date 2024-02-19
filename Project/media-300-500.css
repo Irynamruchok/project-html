@@ -110,8 +110,8 @@ header>div{
     line-height: 7.46vw;
 }
 .boxIcon{
-    width: 18.4vw;
-    height: 10.34vh;
+    width: 69px;
+    height: 69px;
 }
 /*--------------------------------------PortfolioSection----------------------------------------*/
 .portfolioSection{
@@ -212,7 +212,7 @@ footer>div{
     text-transform: capitalize;
 }
 .rights{
-    font-size: 4.8vw;
+    font-size: 4.6vw;
     line-height: 7.46vw;
 }
 .mainIconFooter{
